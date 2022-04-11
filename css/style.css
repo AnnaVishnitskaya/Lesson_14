@@ -1,0 +1,201 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	
+}
+.header {
+}
+.main {
+	padding-top: 210px;
+}
+.main__container {
+
+}
+.our-impac {
+	padding: 112px 210px;
+	background-color: #29C3BE;
+position: relative;
+}
+.our-impac::before {
+	content: '';
+	width: 638px;
+	height: 276px;
+	background: url('../img/layout-dog/Blob.png') 0 0/ 100% no-repeat;
+	position: absolute;
+	top: 0;
+	left: 660px;
+}
+
+.our-impac__top {
+	display: flex;
+	margin: 0px 0px 79px 0px;
+	justify-content: space-between;
+}
+
+.top {
+}
+.top__content {
+	flex: 0 1 50%;
+	max-width: 411px;	
+}
+.block-header *:not(:last-child) {
+	margin: 0px 0px 32px 0px;
+}
+.block-header__subtitle {
+font-weight: 700;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 2.5px;
+text-transform: uppercase;
+position: relative;
+padding: 0 0 0 33px;
+}
+.block-header__subtitle_white::before{
+	content: "";
+	position: absolute;
+	width: 17px;
+	height: 16px;
+	background: url('../img/layout-dog/icon.png') 0 0/120% no-repeat;
+	top: 2px;
+	left: 3px;
+}
+.block-header__title {
+font-weight: 900;
+font-size: 36px;
+line-height: 1.167;
+}
+.top__image {
+	position: relative;
+	margin-top: -192px;
+	flex: 0 1 50%;
+	max-height: 315px;
+}
+.image__item {
+	border-radius: 40px;
+	max-width: 100%;
+}
+.our-impac__statistics {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 24px;
+	height: 100%;
+	margin: 0 -12px;
+}
+.statistics {
+}
+.statistics__item {
+	padding: 0 12px;
+}
+.statistics__item:not(:last-child) {
+	margin-bottom: 15px;
+}
+.statistics__content{
+	flex: 0 1 25%;
+	padding: 0 12px;
+	display: flex;
+	min-height: 76px;
+}
+.statistics__picture{
+	margin: 0px 11px 0px 0px;
+}
+.statistics__image {
+	max-width: 100%;
+}
+.statistics__data{
+	min-height: 76px;
+	display: flex;
+	flex-direction: column;
+   justify-content: center;
+}
+.statistics__value {
+	font-weight: 900;
+font-size: 36px;
+line-height: 1.167;
+margin: 0 0 3px 0;
+}
+.statistics__name {
+	font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.15px;
+color: #5D62B5;
+}
+
+/*---------- Второй макет --------*/
+
+.our-promise-to-you {
+	padding: 122px 210px;
+}
+.our-promise-to-you__top {
+	max-width: 583px;
+	margin-bottom: 71px;
+}
+.block-header {
+}
+.block-header__subtitle {
+}
+.block-header__subtitle_blue {
+	color: #5D62B5;
+}
+.block-header__subtitle_blue::before{
+	background: url('../img/layout/icon.png') 0 0/ 120% no-repeat;
+	content: "";
+	position: absolute;
+	width: 17px;
+	height: 16px;
+	top: 2px;
+	left: 3px;
+}
+.block-header__title {
+	
+}
+.block-header__title_black {
+	color: #000;
+}
+.our-promise-to-you__items {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 24px;
+	height: 100%;
+	margin: 0 -12px;
+}
+.our-promise-to-you__item {
+	padding: 0 12px;
+	min-height: 148px;
+	
+}
+.our-promise-to-you__content{
+	flex: 0 1 30%;
+	display: flex;
+}
+.our-promise-to-you__picture {
+	max-width: 63px;
+	margin: 0px 23px 0px 0px;
+}
+.our-promise-to-you__image {
+	max-width: 100%;
+}
+.our-promise-to-you__data {
+	max-width: 235px;
+	display: flex;
+	flex-direction: column;
+}
+.our-promise-to-you__title {
+	font-weight: 900;
+font-size: 19px;
+line-height: 1.37;
+color: #F2726F;
+}
+.our-promise-to-you__text {
+	font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.15px;
+color: #4B4B4B;
+}
+.footer {
+}
